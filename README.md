@@ -1,4 +1,4 @@
-## 1. Restaurant Ordering System
+# Restaurant Ordering System
 
 
 ## 1. Project Overview
