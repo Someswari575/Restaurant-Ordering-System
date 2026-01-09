@@ -1,7 +1,9 @@
-## Project Overview
+## 1. Restaurant Ordering System
+
+
+## 1. Project Overview
 This project is a browser-based Restaurant Ordering System developed using HTML, CSS, JavaScript, and Bootstrap. It enables users to add menu items to an order, dynamically adjust quantities, remove items, calculate totals, and data is stored locally using the browser's local storage.
 
----
 
 ## 2. Key Features
 - Click-to-add menu items  
@@ -12,7 +14,6 @@ This project is a browser-based Restaurant Ordering System developed using HTML,
 - Clear all orders  
 - Persistent order state via localStorage  
 
----
 
 ## 3. Technologies Used
 - HTML for structure  
@@ -20,21 +21,19 @@ This project is a browser-based Restaurant Ordering System developed using HTML,
 - JavaScript for logic and interactivity  
 - Browser localStorage for data persistence  
 
----
 
 ## 4. JavaScript Functions
-- `calculateTotal()` : Calculates the sum of all items based on quantity and price.  
-- `updateTotal()` : Updates the total display element with calculated value.  
-- `addToOrderList(name, price, quantity)` : Creates and appends a list item to the order summary.  
-- `loadOrder()` : Loads all current order items from localStorage and renders them.  
+- calculateTotal() : Calculates the sum of all items based on quantity and price.  
+- updateTotal() : Updates the total display element with calculated value.  
+- addToOrderList(name, price, quantity) : Creates and appends a list item to the order summary.  
+- loadOrder() : Loads all current order items from localStorage and renders them.  
 
-### Event Listeners
+### Event Listeners:
 - Menu click: Adds or increases item quantity.  
 - Summary click: Handles item quantity changes and removal.  
 - Search input: Filters displayed menu items based on input.  
 - Clear button: Resets the order and localStorage.  
 
----
 
 ## 5. User Interface (UI)
 The UI is structured into the following sections:
@@ -43,17 +42,15 @@ The UI is structured into the following sections:
 - Order Summary list with interactive controls  
 - Display for total amount and action buttons  
 
----
 
 ## 6. Usage Instructions
 - Open the HTML file in a browser.  
 - Click on any menu item to add it to the order.  
-- Use `+` or `-` to increase or decrease item quantities.  
-- Click `×` to remove items from the order.  
+- Use '+' or '-' to increase or decrease item quantities.  
+- Click 'x' to remove items from the order.  
 - View the live-updated total at the bottom.  
-- Click **Clear Order** to empty the cart.  
+- Click 'Clear Order' to empty the cart.  
 
----
 
-## Conclusion
+## 7. Conclusion
 The Restaurant Ordering System provides a simple yet functional interface for managing orders in a restaurant context. Its responsive design and persistent data handling make it suitable for small-scale ordering use-cases or practice projects.
